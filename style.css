@@ -61,13 +61,16 @@ h6 {
   font-weight: bold;
 }
 
+/*Opmaak letters*/
+
 p{
   text-align: center;
   color: rgb(255, 255, 0);
 }
 
 article{
-  text-align: center
+  text-align: center;
+  color: rgb(255, 255, 0)
 }
 
 body{
@@ -116,15 +119,51 @@ article {
    margin: 100px 500px;
    border: 0px;
    font-size: 3vh;
+   margin-left: 500px;
+   margin-right: 500px;
+}
+
+.Boeie {
+  color: red
+}
+
+/*Opmaak afbeeldingen*/
+
+.Kim {
+  height: 200px;
+  width: 150px;
+  float: right;
+  display: block;
+  padding-bottom: 300px;
+  margin-right: 300px; 
+  margin-top: 0px;
+  margin-bottom: 300px;
+}
+
+.Hitler {
+  height: 200px;
+  width: 150px;
+  float: right;
+  display: block;
+  padding-bottom: 200px;
+  margin-right: -300px; 
+  margin-top: 0px;
 }
 
 .Sultan {
   float: right;
   display: block;
-  padding-bottom: 200px;
+  padding-bottom: 300px;
   margin-right: 50px; 
-  }
+  margin-top: 0px;
+ }
 
+.Democracy{
+ float: left;
+ display: block;
+ padding-bottom: 200px;
+ margin-left: 200px;
+}
 
 /*Navigatiebalk links*/
 @import url(https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);

@@ -1,6 +1,6 @@
 var I = 0;
-var txt = 'Holman, T. (2017). Een dictator? Je krijgt er een heerlijk leven voor terug. Het Parool.'; /* The text */
-var speed = 50; /* The speed/duration of the effect in milliseconds */
+var txt = 'De wijze grote uitgebreide kennis van Kamil'; /* The text */
+var speed = 150; /* The speed/duration of the effect in milliseconds */
  
 function typeWriter() {
  if (I < txt.length) {
