@@ -3,7 +3,7 @@
 /* Grootte van de titels*/
 h1 {
   display: block;
-  font-size: 2em;
+  font-size: 2.3em;
   margin-top: 0.67em;
   margin-bottom: 0.67em;
   margin-left: 0;
@@ -13,7 +13,7 @@ h1 {
 
 h2 {
   display: block;
-  font-size: 1.85em;
+  font-size: 1.9em;
   margin-top: 0.83em;
   margin-bottom: 0.83em;
   margin-left: 0;
@@ -61,6 +61,15 @@ h6 {
   font-weight: bold;
 }
 
+p{
+  text-align: center;
+  color: rgb(255, 255, 0);
+}
+
+article{
+  text-align: center
+}
+
 body{
   margin: 0 auto;
 }
@@ -76,6 +85,8 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  margin-left: 3.5vw
 }
 h1 {
    text-align: center;
@@ -104,7 +115,17 @@ article {
    padding: 0px;
    margin: 100px 500px;
    border: 0px;
+   font-size: 3vh;
 }
+
+.Sultan {
+  float: right;
+  display: block;
+  padding-bottom: 200px;
+  margin-right: 50px; 
+  }
+
+
 /*Navigatiebalk links*/
 @import url(https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 }
@@ -242,62 +263,14 @@ height: 100%;
   src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr24bNCNEoFTpS2BTjF6FB5E.woff) format('woff');
 }
 
-/*Star wars text bronnenlijst*/
-body {
-  width: 100%;
-  height: 100%;
-  background: #000;
-  overflow: hidden;
+/*Typewriter bronnenlijst*/
+textarea {
+  display: block;
+  border: 1px solid #BBB;
+  color: #444;
+  font-size: 110%;
 }
 
-.fade {
-  position: relative;
-  width: 100%;
-  min-height: 60vh;
-  top: -25px;
-  background-image: linear-gradient(0deg, transparent, black 75%);
-  z-index: 1;
-}
-
-.star-wars {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  height: 800px;
-  color: #feda4a;
-  font-family: 'Pathway Gothic One', sans-serif;
-  font-size: 500%;
-  font-weight: 600;
-  letter-spacing: 6px;
-  line-height: 150%;
-  perspective: 400px;
-  text-align: justify;
-}
-
-.crawl {
-  position: relative;
-  top: 99999px;
-  transform-origin: 50% 100%;
-  animation: crawl 60s linear;
-}
-
-.crawl > .title {
-  font-size: 90%;
-  text-align: center;
-}
-
-.crawl > .title h1 {
-  margin: 0 0 100px;
-  text-transform: uppercase;
-}
-
-@keyframes crawl {
-  0% {
-    top: -100px;
-    transform: rotateX(20deg)  translateZ(0);
-  }
-  100% { 
-    top: -6000px;
-    transform: rotateX(25deg) translateZ(-2500px);
-  }
+button {
+  margin-top: 10px;
 }
